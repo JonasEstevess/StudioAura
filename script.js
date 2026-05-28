@@ -1,3 +1,4 @@
+// Portfolio configuration with project details
 const portfolioItems = [
   { src: "src/assets/projeto-banheiro.png", title: "Residência Alto de Pinheiros", className: "card-tall" },
   { src: "src/assets/projeto-biblioteca.png", title: "Penthouse Itaim", className: "" },
