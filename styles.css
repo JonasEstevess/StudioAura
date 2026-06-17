@@ -316,8 +316,15 @@ p {
   display: grid;
   grid-template-columns: 1.35fr 1fr 1fr;
   gap: 16px;
-  grid-auto-rows: 215px;
+  grid-auto-rows: clamp(215px, 22vw, 340px);
 }
+
+@media (min-width: 1400px) {
+  .portfolio-grid {
+    grid-auto-rows: clamp(280px, 20vw, 380px);
+  }
+}
+
 
 .portfolio-card {
   position: relative;
